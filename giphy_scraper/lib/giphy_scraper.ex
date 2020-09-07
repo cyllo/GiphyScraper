@@ -1,4 +1,4 @@
 defmodule GiphyScraper do
   defdelegate search(query),
-  to: GiphyScraper.Scraper
+  to: GiphyScraper.Scraper.Scraper
 end
