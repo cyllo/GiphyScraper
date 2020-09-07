@@ -64,7 +64,6 @@ defmodule GiphyScraper.Scraper do
                     limit: limit
                 }
             ]
-            
         }
         #Handle the result
         case HTTPoison.request(request) do
